@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="WPF_EX" Height="450" Width="400">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Text="안녕하세요"
+            FontSize="30"
+            FontWeight="Bold"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"></TextBlock>
     </Grid>
 </Window>
