@@ -22,7 +22,8 @@
             FontSize="20"
             FontWeight="bold"
             Height="30"
-            Width="100"></Button>
+            Width="100"
+            Click="btn_Click"></Button>
         <Border
             Grid.Row="1"
             BorderBrush="Aqua"
@@ -37,6 +38,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <TextBlock
+                    x:Name="contents"
                     Text="안녕"></TextBlock>
             </Grid>
         </Border>

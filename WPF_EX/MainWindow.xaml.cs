@@ -24,5 +24,10 @@ namespace WPF_EX
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            contents.Text = "안녕하세요";
+        }
     }
 }
